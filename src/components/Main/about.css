@@ -1,0 +1,16 @@
+#intro .profile-top-page{
+    animation-duration: 2s;
+    animation-name: about_load;
+    animation-fill-mode: forwards;
+}
+
+@keyframes about_load{
+    from{
+        opacity: 0%;
+        padding-bottom: 5%
+    }
+    to{
+        opacity: 100%;
+        padding-bottom: 0%;
+    }
+}

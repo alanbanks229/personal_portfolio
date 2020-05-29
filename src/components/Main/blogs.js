@@ -1,0 +1,60 @@
+import React, { useEffect, useState } from 'react'
+
+
+export default function Blogs() {
+
+    const [profileImage, setProfileImage ] = useState(false)
+    const [ article, setArticles ] = useState(false)
+
+    useEffect( () => {
+        fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alanbanks229')
+        .then((res) => res.json())
+        .then((data) => {
+            const profile_image = data.feed.image
+            const posts = data.items.filter(item => item.categories.length > 0)
+            // renderBlogCards(posts, profile_image)
+            // debugger
+            setProfileImage(profile_image)
+            setArticles(posts)
+        })
+    }, [])
+
+
+    return (
+        <>
+        <div id="main">
+        { profileImage && article ? 
+        
+            <section className="post">
+                <header className="major">
+                <h1><a href="https://medium.com/@alanbanks229">Checkout my Blogs<br />
+					on Medium</a></h1>
+                </header>
+            <hr />
+            {article.map((article, index) => (
+                <>
+                <div className="card_container">
+                    <div class="blog_card_header">
+                        <img src={profileImage}/>
+                    <img src={article.thumbnail}/>
+                        <p><b>Alan Banks</b>
+                        <br/>
+                        {article.pubDate}
+                        </p>
+                    </div>
+
+                    <div className="blog_card_title">
+                        <header>
+                            <h3>{article.title}</h3>
+                        </header>
+                    </div>
+
+                </div>
+                <hr />
+                </>
+            ))}
+            </section> : null }
+        </div>
+        </>
+    )
+}
