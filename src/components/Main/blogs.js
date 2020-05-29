@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-
-
+import moment from 'moment'
+import './blogs.css'
 export default function Blogs() {
 
     const [profileImage, setProfileImage ] = useState(false)
@@ -19,6 +19,19 @@ export default function Blogs() {
         })
     }, [])
 
+    function updateArticlePubDate(publish_string){
+        // "2020-04-23 14:59:39"
+        // returns "2020-04-23"
+        let new_string = publish_string.split((/,| /), 3)[0]
+
+        let dt = moment(new_string, "YYYY-MM-DD")
+        return dt.fromNow()+' | ' + dt.format('LL')
+    }
+
+    function redirectToSpecificBlog(article){
+        let url = article.link
+        window.open(url, "_blank")
+    }
 
     return (
         <>
@@ -33,13 +46,13 @@ export default function Blogs() {
             <hr />
             {article.map((article, index) => (
                 <>
-                <div className="card_container">
+                <div className="card_container" onClick={()=> redirectToSpecificBlog((article))}>
                     <div class="blog_card_header">
                         <img src={profileImage}/>
                     <img src={article.thumbnail}/>
                         <p><b>Alan Banks</b>
                         <br/>
-                        {article.pubDate}
+                        {updateArticlePubDate(article.pubDate)}
                         </p>
                     </div>
 
