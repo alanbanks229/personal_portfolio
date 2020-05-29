@@ -31,3 +31,19 @@
     float: left;
 
 }
+
+#main .project-git-logo-ul-smaller{
+    list-style-type: none;
+    padding: 0px!important;
+    margin: 0px!important;
+    width: 100%;
+}
+
+#main .project-git-logo-smaller{
+    float: left;
+    margin-top: 6%;
+    margin-left: 7%;
+    margin-right: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

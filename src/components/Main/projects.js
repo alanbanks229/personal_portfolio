@@ -28,19 +28,24 @@ export default function projects() {
 <section class="posts">
     <article>
         <header>
-            <span class="date">April 24, 2017</span>
-            <h2><a href="#">Sed magna<br />
-            ipsum faucibus</a></h2>
+            <h2><a href="#">Mod 4 Project<br />
+            "Draw Off"</a></h2>
         </header>
-        <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+        <ul className="project-git-logo-ul-smaller">
+            <li>
+                <h3 className="project-git-logo-smaller icon brands fa-github">Github: </h3>
+                <a className="project-git-links-back-end button small" href="#">Back-End</a>
+                <a className="project-git-links-front-end button small" href="#">Front-End</a>
+            </li>
+        </ul>
+        <a href="#" class="image fit"><img src="images/mod4_pic_in_action.png" alt="" /></a>
         <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
         <ul class="actions special">
-            <li><a href="#" class="button">Full Story</a></li>
+            <li><a target="_blank" href="https://draw-off-app.herokuapp.com/" class="button">Live Site</a></li>
         </ul>
     </article>
     <article>
         <header>
-            <span class="date">April 22, 2017</span>
             <h2><a href="#">Primis eget<br />
             imperdiet lorem</a></h2>
         </header>
@@ -52,7 +57,6 @@ export default function projects() {
     </article>
     <article>
         <header>
-            <span class="date">April 18, 2017</span>
             <h2><a href="#">Ante mattis<br />
             interdum dolor</a></h2>
         </header>
@@ -64,7 +68,6 @@ export default function projects() {
     </article>
     <article>
         <header>
-            <span class="date">April 14, 2017</span>
             <h2><a href="#">Tempus sed<br />
             nulla imperdiet</a></h2>
         </header>
@@ -76,7 +79,6 @@ export default function projects() {
     </article>
     <article>
         <header>
-            <span class="date">April 11, 2017</span>
             <h2><a href="#">Odio magna<br />
             sed consectetur</a></h2>
         </header>
@@ -88,7 +90,6 @@ export default function projects() {
     </article>
     <article>
         <header>
-            <span class="date">April 7, 2017</span>
             <h2><a href="#">Augue lorem<br />
             primis vestibulum</a></h2>
         </header>
