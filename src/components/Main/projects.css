@@ -1,0 +1,33 @@
+
+#main .project-git-logo-ul{
+    list-style-type: none;
+    padding: 0px!important;
+    margin: 0px!important;
+    width: 60%;
+    float: left;
+    /* border: cyan solid 5px; */
+}
+
+#main .project-git-logo{
+    float: left;
+    margin-top: 5%;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* border: solid 1px rgb(30, 255, 0)!important; */
+}
+
+#main .project-git-links-front-end{
+    margin-top: 5%;
+    margin-left: 1%;
+    float: left;
+
+}
+
+#main .project-git-links-back-end{
+    margin-top: 5%;
+    margin-left: 1%;
+    float: left;
+
+}
