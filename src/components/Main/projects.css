@@ -47,3 +47,8 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
+#main .live_link_ul .link_unavailable{
+    cursor: not-allowed!important;
+    opacity: 0.5!important;
+}
