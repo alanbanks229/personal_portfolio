@@ -40,7 +40,7 @@ export default function Blogs() {
         
             <section className="post">
                 <header className="major">
-                <h1><a href="https://medium.com/@alanbanks229">Checkout my Blogs<br />
+                <h1><a href="https://medium.com/@alanbanks229">Check out my Blogs<br />
 					on Medium</a></h1>
                 </header>
             <hr />
