@@ -1,7 +1,8 @@
 #small_contact_div{
     padding-top: 2%;
     border:black solid 3px;
-    max-width: 80%;
+    max-width: 72rem!important;
+    width: calc(100% - 4rem)!important;
     background: white;
     background-color: white;
     text-align: center;

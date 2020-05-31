@@ -3318,11 +3318,11 @@ input, select, textarea {
 		}
 
 		#intro img{
-			margin-top:1%;
-			max-width: 70%;
-			opacity: 80%;
-			max-height: 70%;
-			margin-bottom: 1%;
+			margin-top:1%!important;
+			max-width: 70%!important;
+			opacity: 80%!important;
+			max-height: 70%!important;
+			margin-bottom: 1%!important;
 		}
 
 		#main .inline-block{
