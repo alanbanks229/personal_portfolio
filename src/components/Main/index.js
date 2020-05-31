@@ -80,7 +80,8 @@ function Index(props) {
         <>
         <Intro />
         <header id="header">
-            <a href='/about' className="logo">My Portfolio</a>
+             {/* Here we need to use personal_portfolio for github website, if not we need a href="/about" */}
+            <a href='/personal_portfolio/' className="logo">My Portfolio</a>
         </header>
         <Navigation props={props} selection={currentSelection} updateSelection={updateNavBar}/>        
         {renderMainContent()}
@@ -88,7 +89,8 @@ function Index(props) {
         : 
         <>
         <header id="header">
-            <a href='/about' className="logo">My Portfolio</a>
+            {/* Here we need to use personal_portfolio for github website, if not we need a href="/about" */}
+            <a href='/personal_portfolio/' className="logo">My Portfolio</a>
         </header>
         <Navigation props={props} selection={currentSelection} updateSelection={updateNavBar}/>        
         {renderMainContent()}
