@@ -80,7 +80,7 @@ function Index(props) {
         <>
         <Intro />
         <header id="header">
-            <Link to='/' className="logo">My Portfolio</Link>
+            <a href='/about' className="logo">My Portfolio</a>
         </header>
         <Navigation props={props} selection={currentSelection} updateSelection={updateNavBar}/>        
         {renderMainContent()}
@@ -88,7 +88,7 @@ function Index(props) {
         : 
         <>
         <header id="header">
-            <Link to='/' className="logo">My Portfolio</Link>
+            <a href='/about' className="logo">My Portfolio</a>
         </header>
         <Navigation props={props} selection={currentSelection} updateSelection={updateNavBar}/>        
         {renderMainContent()}

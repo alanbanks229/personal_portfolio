@@ -16,11 +16,13 @@ export default function About() {
                             </ul>
                         </div>
                     </header>
-                    <p>I am a full-stack engineer specializing in creating engaging digital experiences. I am currently seeking a position where I can leverage my background in communications, marketing, and product management to achieve impactful goals.
-
-                        I spent the last few years at More Vang where I coded PDFs from scratch on a daily basis while overseeing the product team. Before that, I worked at Apple and managed a print shop. When I'm not writing code I can be found ouside enjoying nature or playing guitar in my basement.
-                        
-                        Check out my projects & blog to see what I have been up to lately.</p>
+                    <header>
+                        <h3>Musician turned Software Engineer</h3>
+                    </header>
+                    <p>From a young age, I enjoyed singing, playing piano, and using technology to create interesting sounds with MIDI. While studying and creating music compositions in undergrad, there were numerous times I would look at a completed score and say "it's not done." I kept going deeper to find the details that contribute to the theme I was looking for in my pieces.</p>
+                    <p>Having transitioned to code, the same mindset of finessing and perfecting doesn't stop. "Just because the code produces the right answer, it doesn't mean that it is optimal or efficient."</p>
+                    <p>As an upcoming full-stack engineer my goal is to create engaging digital experiences. I am currently seeking a position where I can leverage my background in music, sports, and of course software-engineering to achieve impactful goals.</p>
+                    <p>Check out my projects & blog to see what I have been up to lately! :)</p>
                 </section>
 
         </div>

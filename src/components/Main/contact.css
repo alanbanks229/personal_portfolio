@@ -1,0 +1,18 @@
+#small_contact_div{
+    padding-top: 2%;
+    border:black solid 3px;
+    max-width: 80%;
+    background: white;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#small_contact_div p{
+    text-align: center;
+    margin: auto;
+}
+
+.test-mailing .actions .float_right_power_by{
+    margin-left: 30%;
+}
