@@ -1,7 +1,7 @@
 import React from 'react'
 import './resume.css'
 import { Link } from 'react-router-dom'
-import PDF from '../../Alan_Banks_Resume.pdf'
+import PDF from '../../images/Alan_Banks_Resume.pdf'
 export default function resume() {
     return (
         <div id="main">
