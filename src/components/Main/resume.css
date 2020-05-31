@@ -5,3 +5,7 @@
 #main .post .box .resume_heading{
     text-align: center;
 }
+
+#main .post .float_link_right{
+    float: right;
+}

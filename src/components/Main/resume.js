@@ -1,10 +1,15 @@
 import React from 'react'
 import './resume.css'
+import { Link } from 'react-router-dom'
+import PDF from '../../Alan_Banks_Resume.pdf'
 export default function resume() {
     return (
         <div id="main">
 
             <section class="post">
+                <a href={PDF} target="_blank" className="float_link_right button small" download>
+                    Download PDF here
+                </a>
                 <header>
                     <h2>Resumé</h2>
                 </header>
