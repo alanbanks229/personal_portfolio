@@ -40,8 +40,12 @@ export default function Blogs() {
         
             <section className="post">
                 <header className="major">
-                <h1><a href="https://medium.com/@alanbanks229">Check out my Blogs<br />
-					on Medium</a></h1>
+                {document.body.offsetWidth >= 980 ? 
+                (<h1><a href="https://medium.com/@alanbanks229">Check out my Blogs<br />
+                                                                on Medium</a></h1>) : 
+                (<h1><a href="https://medium.com/@alanbanks229">Check out<br/> my
+                                                                Blogs
+					                                            <p style={{textAlign: "center"}}>on Medium</p></a></h1>)}
                 </header>
             <hr />
             {article.map((article, index) => (
