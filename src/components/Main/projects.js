@@ -21,12 +21,13 @@ export default function projects() {
             </ul>
             <a href="#" class="image main"><img src="images/current_trends_screenshot.png" alt="" /></a>
             <ul class="actions special">
-                <li><a rel="noopener noreferrer" target="_blank" href="https://current-trends-app.herokuapp.com/" className="button large">Live Site</a></li>
+                <li><span className="button disabled">Unavailable</span></li>
             </ul>
             <p style={{color: 'red'}}><b>Update: 6/3/20</b>
                 <br/>
-                Unfortunately due to changes in NEWSAPI developer plan, the live site will not be able to fetch the articles. You can only fetch articles from
-                your local servers :(
+                Due to recent changes in NEWSAPI developer plan, the live site has been taken down from heroku.
+                <br/> 
+                The specific change prevents the ability to fetch news articles outside of a test environment.
             </p>
             <p>An online search engine where users can get news around the world.<br/>
                 <li>Filter news by categories and languages</li>
