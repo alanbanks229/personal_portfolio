@@ -26,6 +26,7 @@ function Index(props) {
         // if (choice === "About"){
         //     props.history.push("/")
         // }
+        debugger
         setCurrentSelection(choice)
         if (document.body.offsetWidth >= 980 ){
             // debugger
@@ -38,7 +39,7 @@ function Index(props) {
             case "About":
                 return (
                     <>
-                        <About />
+                        <About updateSelection={updateNavBar}/>
                     </>
                     )
             case "Resume":

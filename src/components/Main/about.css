@@ -14,3 +14,14 @@
         padding-bottom: 0%;
     }
 }
+
+#main .post span{
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+#main .post span:hover{
+    color: blue;
+    opacity: 80%;
+    cursor: pointer;
+}

@@ -23,6 +23,16 @@ export default function projects() {
             <ul class="actions special">
                 <li><a rel="noopener noreferrer" target="_blank" href="https://current-trends-app.herokuapp.com/" className="button large">Live Site</a></li>
             </ul>
+            <p style={{color: 'red'}}><b>Update: 6/3/20</b>
+                <br/>
+                Unfortunately due to changes in NEWSAPI developer plan, the live site will not be able to fetch the articles. You can only fetch articles from
+                your local servers :(
+            </p>
+            <p>An online search engine where users can get news around the world.<br/>
+                <li>Filter news by categories and languages</li>
+                <li>Get your local news</li>
+                <li>Get your local 5-day weather forecast</li>
+            </p>
         </article>
 
         {/* <!-- Posts --> */}
