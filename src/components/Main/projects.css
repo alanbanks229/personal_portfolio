@@ -52,3 +52,7 @@
     cursor: not-allowed!important;
     opacity: 0.5!important;
 }
+
+.fit iframe{
+    width: 80%;
+}

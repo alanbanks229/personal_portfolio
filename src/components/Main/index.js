@@ -23,18 +23,13 @@ function Index(props) {
     }, [currentSelection])
 
     function updateNavBar(choice) {
-        // if (choice === "About"){
-        //     props.history.push("/")
-        // }
-        debugger
         setCurrentSelection(choice)
         if (document.body.offsetWidth >= 980 ){
-            // debugger
             props.nav_selection(choice)
         }
     }
 
-    function renderMainContent(choice){
+    function renderMainContent(){
         switch (currentSelection){
             case "About":
                 return (

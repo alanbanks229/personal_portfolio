@@ -4,7 +4,7 @@ export default function About(props) {
 
 
     let updateNavBar = props.updateSelection
-    debugger
+    // debugger
     return (
         <div id="main">
 

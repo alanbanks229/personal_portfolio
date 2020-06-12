@@ -25,8 +25,8 @@ function Index({selection, updateSelection, props}) {
     }, [])
     
     
-    function renderNavbar(event){
- 
+    function renderNavbar(){
+        // debugger
         if (document.querySelector("#navPanelToggle")){
             phone_in_use = true
             //jquery below... never mixing jquery and reactjs again
@@ -34,6 +34,7 @@ function Index({selection, updateSelection, props}) {
                 updatingNavBar(e)
                 document.body.classList = ""
                 e.stopPropagation();
+                // e.preventDefault();
             });     
         }
         return (

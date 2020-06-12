@@ -19,7 +19,16 @@ export default function projects() {
                     <a rel="noopener noreferrer" target="_blank" className="project-git-links-back-end button small" href="https://github.com/alanbanks229/current_trends_app_backend">Back-End</a>
                 </li>
             </ul>
-            <a href="#" class="image main"><img src="images/current_trends_screenshot.png" alt="" /></a>
+            <div className="image main">
+                <>
+                {document.body.offsetWidth >= 980 ? 
+                    <iframe width="800" height="560" src="https://www.youtube.com/embed/N-hRG1RldIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe> 
+                :
+                    <iframe src="https://www.youtube.com/embed/N-hRG1RldIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe> 
+                }
+                </>
+                
+            </div>
             <ul class="actions special">
                 <li><span className="button disabled">Unavailable</span></li>
             </ul>
@@ -54,7 +63,15 @@ export default function projects() {
                         <a rel="noopener noreferrer" target="_blank" className="project-git-links-back-end button small" href="https://github.com/alanbanks229/mod4_backend">Back-End</a>
                     </li>
                 </ul>
-                <a href="#" class="image fit"><img src="images/mod4_pic_in_action.png" alt="" /></a>
+                <div className="image fit">
+                    <>
+                    {document.body.offsetWidth >= 980 ? 
+                    <iframe height="230px" width="560px" src="https://www.youtube.com/embed/4vn4oCgs-wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe> 
+                    :
+                    <iframe src="https://www.youtube.com/embed/4vn4oCgs-wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+                    }
+                    </>
+                </div>
                 <p>An online multiplayer game where users are given a prompt to draw and the winner has the most likes.<br/>
                 <li> Multiple game lobbies!</li>
                 <li>Play to get the highest rating!</li>
@@ -78,7 +95,11 @@ export default function projects() {
                         <a rel="noopener noreferrer" target="_blank" className="project-git-links-front-end button small" href="https://github.com/alanbanks229/Mod_2_Project">Github</a>
                     </li>
                 </ul>
-                {document.body.offsetWidth >= 980 ? (null) : (<div style={{paddingBottom: "4.4rem",position: "absolute;"}}></div>)}
+                {document.body.offsetWidth >= 980 ? 
+                    (null) 
+                    : 
+                    (<div style={{paddingBottom: "4.4rem",position: "absolute;"}}></div>)
+                }
                 <a href="#" class="image fit"><img src="images/mod2_pic_in_action.png" alt="" /></a>
                 <p>An online forum where you can post any kind of question under specific categories and receive responses from other users who use this app!
                     <br/>
