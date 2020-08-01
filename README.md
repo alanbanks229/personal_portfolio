@@ -1,6 +1,6 @@
 ### Note: This repository is no longer used for my website.
 refer to this <a href="https://github.com/alanbanks229/alanbanks229.github.io">repo</a> for my current portfolio page using github.io
-
+<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
